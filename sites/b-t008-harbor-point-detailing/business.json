@@ -1,0 +1,28 @@
+{
+  "name": "[TEST] Harbor Point Detailing",
+  "niche": "Car detailers",
+  "city": "Portsmouth",
+  "phone": "603-555-0108",
+  "email": "",
+  "accent": "#0d6468",
+  "logoUrl": "/logo.svg",
+  "copy": {
+    "heroHeadline": "Your car should feel like you take care of things.",
+    "heroSub": "Interior and exterior detailing in Portsmouth, NH.",
+    "intro": "A clean car means nobody has to hear you say sorry about the back seat.",
+    "servicesIntro": "What we do"
+  },
+  "services": [
+    { "name": "Interior detail" },
+    { "name": "Exterior detail" },
+    { "name": "Ceramic coating" }
+  ],
+  "photos": [],
+  "reviews": [
+    { "text": "Showed up on time and my truck looks brand new." }
+  ],
+  "facts": [],
+  "source": {
+    "approved_reviews": "Showed up on time and my truck looks brand new. (Test review, approved)"
+  }
+}

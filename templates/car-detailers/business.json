@@ -1,0 +1,23 @@
+{
+  "name": "[SAMPLE] Example Detailing",
+  "niche": "Car detailers",
+  "city": "Portsmouth",
+  "phone": "",
+  "email": "",
+  "accent": "#0d6468",
+  "logoUrl": "/logo.svg",
+  "copy": {
+    "heroHeadline": "Your car should feel like you take care of things.",
+    "heroSub": "Interior and exterior detailing in Portsmouth, NH.",
+    "intro": "A clean car means nobody has to hear you say sorry about the back seat.",
+    "servicesIntro": "What we do"
+  },
+  "services": [
+    { "name": "Interior detail" },
+    { "name": "Exterior detail" }
+  ],
+  "photos": [],
+  "reviews": [],
+  "facts": [],
+  "source": { "approved_reviews": "" }
+}
