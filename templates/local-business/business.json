@@ -1,0 +1,30 @@
+{
+  "name": "[SAMPLE] Example Business",
+  "niche": "Local business",
+  "city": "Portsmouth",
+  "phone": "",
+  "email": "",
+  "currentSite": "",
+  "accent": "#0d6468",
+  "logoUrl": "/logo.svg",
+  "copy": {
+    "heroHeadline": "Good work should be easy to find.",
+    "heroSub": "Services in Portsmouth, NH.",
+    "intro": "Customers should know what to expect before they pick up the phone.",
+    "servicesIntro": "What we do"
+  },
+  "services": [
+    {
+      "name": "Service one"
+    },
+    {
+      "name": "Service two"
+    }
+  ],
+  "photos": [],
+  "reviews": [],
+  "facts": [],
+  "source": {
+    "approved_reviews": ""
+  }
+}

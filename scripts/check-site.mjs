@@ -58,6 +58,16 @@ check(badReviews.length === 0, badReviews.length ? `review not in approved_revie
 // 8. Phone looks like a phone number, or is empty.
 check(!b.phone || /\d{3}\D*\d{4}/.test(b.phone), "phone is empty or looks like a phone number");
 
+// 9. BRIEF.md names the current site, or says there is none.
+const briefPath = path.join(dir, "BRIEF.md");
+const brief = fs.existsSync(briefPath) ? fs.readFileSync(briefPath, "utf8") : "";
+check(Boolean(brief), "BRIEF.md exists in the site folder");
+const siteLine = (brief.match(/^Current site:\s*(.+)$/mi) || [])[1];
+check(Boolean(siteLine), 'BRIEF.md has a "Current site:" line');
+const cs = (b.currentSite || "").trim();
+if (cs) check(/^https?:\/\//.test(cs) && Boolean(siteLine) && siteLine.includes(cs), "BRIEF.md links the same current site as business.json");
+else check(!siteLine || /^none\b/i.test(siteLine.trim()), 'BRIEF.md says "Current site: none" when business.json has no current site');
+
 let failed = 0;
 for (const [ok, msg] of results) { console.log((ok ? "PASS  " : "FAIL  ") + msg); if (!ok) failed++; }
 console.log(failed ? `\n${failed} check(s) failed.` : "\nAll checks passed.");

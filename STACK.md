@@ -6,7 +6,7 @@ Baseline set on 2026-10-13 by Ty and Jaime. This file mirrors the Tech stack tab
 
 | Layer | Choice | Notes |
 | --- | --- | --- |
-| Framework | Next.js (App Router) | Server components by default, so pages ship less JavaScript. Client components only where a page needs interaction. |
+| Framework | Next.js (App Router), most recent stable version | Next.js and React are always the most recent stable release, checked at every build. Server components by default, so pages ship less JavaScript. Client components only where a page needs interaction. |
 | Hosting | Vercel | Built for Next.js. Deploys from GitHub, with a preview link for each branch. |
 | Speed | Vercel's global edge network | Cached pages are served from locations near the visitor. Fast loading is the reason for this stack. |
 | Code | GitHub | One repo. One branch per business, opened as a pull request. Nobody pushes to main. |
