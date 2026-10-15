@@ -1,0 +1,45 @@
+{
+  "name": "Lavish Auto Spa, LLC",
+  "niche": "Car detailers",
+  "city": "Exeter",
+  "phone": "603-758-3194",
+  "email": "",
+  "currentSite": "https://www.lavishautospa.com/",
+  "accent": "#1f5e43",
+  "logoUrl": "/logo.webp",
+  "copy": {
+    "heroHeadline": "Your website should never be the reason someone calls the other guy.",
+    "heroSub": "Mobile car detailing in Exeter, NH and the towns around it.",
+    "intro": "You want your car to feel like yours again, inside and out, without losing a day to drop it off. Call, pick a time, and we come to you.",
+    "servicesIntro": "Mobile detailing, inside and out"
+  },
+  "services": [
+    {
+      "name": "Interior detailing",
+      "description": "The inside of your car, cleaned with care."
+    },
+    {
+      "name": "Exterior detailing",
+      "description": "The outside of your car, cleaned with care."
+    },
+    {
+      "name": "Mobile service",
+      "description": "We come to you in Exeter, Stratham, Rye, Hampton, Newton, Kingston, East Kingston, Epping, and Brentwood."
+    }
+  ],
+  "photos": [
+    { "url": "/stock-1.jpg", "alt": "Stock photo: a car covered in soap suds during a wash" },
+    { "url": "/stock-2.jpg", "alt": "Stock photo: a clean car interior" },
+    { "url": "/stock-3.jpg", "alt": "Stock photo: waxing the hood of a car" },
+    { "url": "/stock-4.jpg", "alt": "Stock photo: cleaning a tire with a brush" }
+  ],
+  "reviews": [
+    {
+      "text": "Jake was fantastic, he was so detailed and really made sure everything was perfect."
+    }
+  ],
+  "facts": [],
+  "source": {
+    "approved_reviews": "Jake was fantastic, he was so detailed and really made sure everything was perfect. I didn't realize that I only booked an interior detail and he had no problem spending a little more time and adding on the exterior for me. He really goes the extra mile and was also very pleasant overall. 10/10"
+  }
+}
